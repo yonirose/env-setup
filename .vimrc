@@ -106,5 +106,4 @@ endfunction
 au VimEnter * nested :call LoadSession()
 au VimEnter * NERDTree
 au VimLeave * NERDTreeClose
-
 au VimLeave * :call MakeSession()
